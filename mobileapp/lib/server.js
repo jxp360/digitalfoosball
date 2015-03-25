@@ -90,6 +90,10 @@ app.get('/', function(req, res){
   res.render("index", data);
 });
 
+app.get('/league', function(req, res) {
+  res.redirect("http://foosball.hq.axiosengineering.com:5984/digitalfoosball/_design/league/_rewrite/");
+})
+
 app.get("/dialog", function(req, res) {
   res.render("partials/dialog", data);
 });
