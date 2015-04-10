@@ -27,7 +27,7 @@
 				position: relative;
 				display: inline;
 				padding: 10px 5px;
-				background: transparent url("../../images/elements/el_jersey_white.svg") no-repeat 0 50%;
+				background: transparent url("../../images/elements/el_jersey_black.svg") no-repeat 0 50%;
 				background-size: 47px 35px;
 				&::before{
 					content: counter(players);
@@ -35,7 +35,7 @@
 					position: absolute;
 					top:12px;
 					font-weight: bold;
-					color: #333;
+					color: #EEE;
 					font-size: 15px;
 				}
 				&:nth-of-type(2n+1){
@@ -75,9 +75,9 @@
 					margin: 0 0 0 20px;
 				}
 				> div{
-					background-image: url("../../images/elements/el_jersey_black.svg");
+					background-image: url("../../images/elements/el_jersey_yellow.svg");
 					&::before{
-						color: #EEE;
+						color: #333;
 					}
 				}
 				
@@ -95,9 +95,9 @@
 		.formrow{
 			margin: 25px 0;
 			>div:last-of-type{
-				background-image: url("../../images/elements/el_jersey_black.svg");
+				background-image: url("../../images/elements/el_jersey_yellow.svg");
 				&::before{
-					color: #EEE;
+					color: #333;
 				}
 			}
 			&:last-of-type{
@@ -162,10 +162,10 @@
 
 .nosvg{
     #login form .formrow > div{
-        background-image: url("../../images/elements/el_jersey_white.png");
+        background-image: url("../../images/elements/el_jersey_black.png");
     }
     #login form .formrow:last-of-type > div,
     #login.opponents2 .formrow > div:last-of-type{
-        background-image: url("../../images/elements/el_jersey_black.png");
+        background-image: url("../../images/elements/el_jersey_yellow.png");
     }
 }
